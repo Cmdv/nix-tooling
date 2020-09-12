@@ -2,8 +2,20 @@
     "easy-purescript-nix": {
         "ref": "master",
         "repo": "git@github.com:justinwoo/easy-purescript-nix",
-        "rev": "b5891b3669d0c6c4d2e157f25a2d5c03f3e9e613",
+        "rev": "1ec689df0adf8e8ada7fcfcb513876307ea34226",
         "type": "git"
+    },
+    "haskell-language-server": {
+        "branch": "master",
+        "description": "Integration point for ghcide and haskell-ide-engine. One IDE to rule them all.",
+        "homepage": null,
+        "owner": "haskell",
+        "repo": "haskell-language-server",
+        "rev": "3d836a777294128f7cd9f45241153f60c7dde994",
+        "sha256": "0n43hlizkrxvr5nix4lpjybbsp4g3gf6zbmwsyal8fshhc2ikkif",
+        "type": "tarball",
+        "url": "https://github.com/haskell/haskell-language-server/archive/3d836a777294128f7cd9f45241153f60c7dde994.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "niv": {
         "branch": "master",
@@ -11,10 +23,10 @@
         "homepage": "https://github.com/nmattia/niv",
         "owner": "nmattia",
         "repo": "niv",
-        "rev": "89ae775e9dfc2571f912156dd2f8627e14d4d507",
-        "sha256": "0ssw6byyn79fpyzswi28s5b85x66xh4xsfhmcfl5mkdxxpmyy0ns",
+        "rev": "dd13098d01eaa6be68237e7e38f96782b0480755",
+        "sha256": "1cfjdbsn0219fjzam1k7nqzkz8fb1ypab50rhyj026qbklqq2kvq",
         "type": "tarball",
-        "url": "https://github.com/nmattia/niv/archive/89ae775e9dfc2571f912156dd2f8627e14d4d507.tar.gz",
+        "url": "https://github.com/nmattia/niv/archive/dd13098d01eaa6be68237e7e38f96782b0480755.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nixpkgs": {
@@ -23,10 +35,10 @@
         "homepage": "https://github.com/NixOS/nixpkgs",
         "owner": "NixOS",
         "repo": "nixpkgs-channels",
-        "rev": "b9ba82ef8ad6d8997840332ca3a2986e360291e3",
-        "sha256": "06wsdahgrmxdrv6hbqc5apg781c4lalv5wadbdgb4jbxpc0snas9",
+        "rev": "51428e8d38271d14146211867984b8742d304ea4",
+        "sha256": "1pphvg9mrbq4vm73xrbdr7970gb389lp3xbnzgyv3gjri2zrkyl9",
         "type": "tarball",
-        "url": "https://github.com/NixOS/nixpkgs-channels/archive/b9ba82ef8ad6d8997840332ca3a2986e360291e3.tar.gz",
+        "url": "https://github.com/NixOS/nixpkgs-channels/archive/51428e8d38271d14146211867984b8742d304ea4.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     }
 }
