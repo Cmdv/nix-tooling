@@ -5,18 +5,6 @@
         "rev": "1ec689df0adf8e8ada7fcfcb513876307ea34226",
         "type": "git"
     },
-    "haskell-language-server": {
-        "branch": "master",
-        "description": "Integration point for ghcide and haskell-ide-engine. One IDE to rule them all.",
-        "homepage": null,
-        "owner": "haskell",
-        "repo": "haskell-language-server",
-        "rev": "3d836a777294128f7cd9f45241153f60c7dde994",
-        "sha256": "0n43hlizkrxvr5nix4lpjybbsp4g3gf6zbmwsyal8fshhc2ikkif",
-        "type": "tarball",
-        "url": "https://github.com/haskell/haskell-language-server/archive/3d836a777294128f7cd9f45241153f60c7dde994.tar.gz",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
-    },
     "niv": {
         "branch": "master",
         "description": "Easy dependency management for Nix projects",
