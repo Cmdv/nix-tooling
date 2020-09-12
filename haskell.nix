@@ -1,4 +1,4 @@
-{ pkgs, hls }:
+{ pkgs }:
 let
   ghc = pkgs.haskell.packages.ghc883;
 
