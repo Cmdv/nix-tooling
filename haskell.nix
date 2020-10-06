@@ -1,4 +1,4 @@
-{ pkgs, hls }:
+{ pkgs }:
 let
   ghc = pkgs.haskell.packages.ghc883;
 
@@ -6,9 +6,8 @@ let
   self = rec {
     inherit ghc;
     cabal-install = ghc.cabal-install;
-    stack = ghc.stack;
     stylish-haskell = ghc.stylish-haskell;
-    haskell-language-server = hls;
+    haskell-language-server = ghc.haskell-language-server;
     hlint = ghc.hlint;
     ghc883 = pkgs.haskell.compiler.ghc883;
 
@@ -18,7 +17,6 @@ let
         self.stylish-haskell
         self.hlint
         self.cabal-install
-        self.stack
         self.haskell-language-server
       ];
     };
