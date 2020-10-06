@@ -1,4 +1,4 @@
-{ pkgs }:
+{ pkgs, hls }:
 let
   ghc = pkgs.haskell.packages.ghc883;
 
@@ -7,7 +7,7 @@ let
     inherit ghc;
     cabal-install = ghc.cabal-install;
     stylish-haskell = ghc.stylish-haskell;
-    haskell-language-server = ghc.haskell-language-server;
+    haskell-language-server = hls;
     hlint = ghc.hlint;
     ghc883 = pkgs.haskell.compiler.ghc883;
 
