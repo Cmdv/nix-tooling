@@ -9,7 +9,7 @@ let
     stylish-haskell = ghc.stylish-haskell;
     haskell-language-server = ghc.haskell-language-server;
     hlint = ghc.hlint;
-    ghc883 = pkgs.haskell.compiler.ghc8102;
+    ghc8102 = pkgs.haskell.compiler.ghc8102;
 
     mkShell = pkgs.mkShell {
       buildInputs = [
