@@ -19,15 +19,15 @@
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nixpkgs": {
-        "branch": "nixpkgs-unstable",
+        "branch": "nixpkgs-20.09-darwin",
         "description": "A read-only mirror of NixOS/nixpkgs tracking the released channels. Send issues and PRs to",
         "homepage": "https://github.com/NixOS/nixpkgs",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "e5b478271ea0af7b75d53c92cfa98bdb126b44a7",
-        "sha256": "06hmxvnx2swk63i15zp1q70axf53x04f7ywwlnxlcfkk0prrmwbh",
+        "rev": "269fc4ddb896c1c5994eb4bb8c750ec18cb3db82",
+        "sha256": "0ar0x0d69bhd2xskl8y1l1p8hil823dm83s75r7fvphgrc5pwsbq",
         "type": "tarball",
-        "url": "https://github.com/NixOS/nixpkgs/archive/e5b478271ea0af7b75d53c92cfa98bdb126b44a7.tar.gz",
+        "url": "https://github.com/NixOS/nixpkgs/archive/269fc4ddb896c1c5994eb4bb8c750ec18cb3db82.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     }
 }
